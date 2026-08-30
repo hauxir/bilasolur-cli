@@ -73,6 +73,8 @@ def main() -> None:
 @click.option("--doors-to", type=int, help="Doors to")
 @click.option("--range-from", type=int, help="Electric range from, in km")
 @click.option("--battery-from", type=int, help="Battery capacity from, in kWh")
+@click.option("--tow-weight-from", type=int, help="Braked trailer capacity from, in kg")
+@click.option("--tow-weight-to", type=int, help="Braked trailer capacity to, in kg")
 @click.option("--new-only", is_flag=True, help="New vehicles only")
 @click.option("--good-price", is_flag=True, help="Flagged as a good price (flott verð)")
 @click.option("--tow-hitch", is_flag=True, help="Has a tow hitch")

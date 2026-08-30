@@ -63,6 +63,8 @@ RANGE_FIELDS: dict[str, tuple[str, int]] = {
     "range_to": ("search_brt", 1),
     "weight_from": ("search_tf", 1),
     "weight_to": ("search_tt", 1),
+    "tow_weight_from": ("search_dgfh", 1),
+    "tow_weight_to": ("search_dgth", 1),
 }
 
 # Sort keys -> the label bilasolur.is uses in the sort dropdown.
