@@ -45,6 +45,7 @@ matched case-insensitively and a unique partial match is accepted.
 | `--year-from/-to`, `--price-from/-to`, `--km-from/-to` | Year, price in ISK, mileage in km |
 | `--hp-from/-to`, `--seats-from/-to`, `--doors-from/-to` | Power, seats, doors |
 | `--range-from`, `--battery-from` | Electric range (km), battery capacity (kWh) |
+| `--tow-weight-from/-to` | Braked trailer capacity, in kg |
 | `--dealer` | Restrict to one seller |
 | `--new-only`, `--good-price`, `--tow-hitch`, `--on-site` | Boolean filters |
 | `--updated-days` | Updated within 1, 7, 30, 60, 90 or 120 days |
